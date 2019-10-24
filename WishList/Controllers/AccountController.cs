@@ -16,9 +16,5 @@ namespace WishList.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
     }
 }
